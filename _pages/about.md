@@ -12,7 +12,7 @@ I am a Computer Science Ph.D. student at the [University of Texas at Arlington](
 
 Latest News
 =======
-- **September 2023:** I was selected as one of the recipients of the participant support stipend for the 2023 Tapia Registration scholarship to attend [ACM Richard Tapia Celebration of Diversity in Computing Conference](https://tapiaconference.cmd-it.org).
+- **September 2023:** I was selected as one of the recipients of the 2023 Tapia Registration scholarship to attend [ACM Richard Tapia Celebration of Diversity in Computing Conference](https://tapiaconference.cmd-it.org).
 - **August 2023:** I was selected as one of the recipients of the participant support stipend for the [2023 STARS Celebration](https://tapiaconference.cmd-it.org).
 - **May 2023:** Our paper titled “Deep Reinforcement Learning for Energy-Efficient Task Offloading in Cooperative Vehicular Edge Networks” got accepted in the 2023 IEEE International Conference on Industrial Informatics.
 - **May 2023:** Our paper titled “FedCime: An Efficient Federated Learning Approach For Clients in Mobile Edge Computing” got accepted in the 2023 IEEE International Conference on Edge Computing and Communications.
