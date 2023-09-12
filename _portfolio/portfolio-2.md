@@ -1,6 +1,6 @@
 ---
 title: "CAN Bus Intrusion Detection System Using Light Gradient Boosting Machine"
-excerpt: "We present an anomaly-based detection system using LightGBM, a fast and efficient machine learning algorithm. The advantages of LightGBM over other machine learning algorithms include low memory usage, higher accuracy, ability to handle large dataset, faster speed, and higher efficiency. CAN bus dataset can be huge the bus may use multiple baud rates up to 1 Mbit. Our proposed detection approach is based on LightGBM because algorithm is suitable for anomaly in CAN since the network is characterized by resource-constrained entities.<br/><img src='/images/project2.png' width='500' height='150'>"
+excerpt: "We presented an anomaly-based detection system using LightGBM, a fast and efficient machine learning algorithm. The advantages of LightGBM over other machine learning algorithms include low memory usage, higher accuracy, ability to handle large dataset, faster speed, and higher efficiency. CAN bus dataset can be huge the bus may use multiple baud rates up to 1 Mbit. Our proposed detection approach is based on LightGBM because algorithm is suitable for anomaly in CAN since the network is characterized by resource-constrained entities.<br/><img src='/images/project2.png' width='500' height='150'>"
 collection: portfolio
 ---
 

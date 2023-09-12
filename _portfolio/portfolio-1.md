@@ -1,6 +1,6 @@
 ---
 title: "Real-time Dehydration Monitoring Using Off-the-shelf sensor-based System"
-excerpt: "We develop a sensor-based health-monitoring system to observe the sweat rate using sensors. We used off-the-shelf and at-hand sensors to build our sweat-measuring system. One of the key reasons for using off-the-shelf sensors is to make the system available for DIY users and introduce it to the K 12 level students.<br/><img src='/images/project1.png' width='500' height='300'>"
+excerpt: "We developed a sensor-based health-monitoring system to observe the sweat rate using sensors. We used off-the-shelf and at-hand sensors to build our sweat-measuring system. One of the key reasons for using off-the-shelf sensors is to make the system available for DIY users and introduce it to the K 12 level students.<br/><img src='/images/project1.png' width='500' height='300'>"
 collection: portfolio
 ---
 
