@@ -12,6 +12,12 @@ I am a Computer Science Ph.D. student at the [University of Texas at Arlington](
 
 Latest News
 =======
+- **May 2024:** I started my internship as an Applied Machine Learning Research Fellow at the Los Alamos National Lab.
+- **April 2024:** I was awarded the Kelcy Warren Graduate Fellowship for Engineering at UTA.
+- **March 2024:** I received the Travel Grant Award to attend The Network and Distributed System Security Symposium (NDSS) 2024.
+- **February 2024:** Our article titled “Towards named data networking technology: Emerging applications, use cases, and challenges for secure data communication” got published in the Future Generation Computer Systems journal.
+- **February 2024:** I joined the student volunteers at VechileSec'24. 
+- **January 2024:** Our article "AutoWatch: Learning Driver Behavior with Graphs for Auto Theft Detection and Situational Awareness" has been accepted to VehicleSec'24.
 - **September 2023:** I was selected as one of the recipients of the 2023 Tapia Registration scholarship to attend [ACM Richard Tapia Celebration of Diversity in Computing Conference](https://tapiaconference.cmd-it.org).
 - **August 2023:** I was selected as one of the recipients of the participant support stipend for the [2023 STARS Celebration](https://tapiaconference.cmd-it.org).
 - **May 2023:** Our paper titled “Deep Reinforcement Learning for Energy-Efficient Task Offloading in Cooperative Vehicular Edge Networks” got accepted in the 2023 IEEE International Conference on Industrial Informatics.
