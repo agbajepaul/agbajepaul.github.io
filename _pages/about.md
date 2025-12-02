@@ -16,7 +16,7 @@ Latest News
 - **November 2025:** Our paper "Towards Enhanced Sparse-View Tomographic Reconstruction Using 3D Gaussian Splatting" got accepted at 3DV.
 - **August 2025:** Our paper "Beyond Detection: Comparative Explainability Study on Trypanosoma cruzi Using CAMs and DETR Attention" got accepted at IEEE BHI'25.
 - **August 2025:** Our paper ""Beyond the Glow: Understanding Luminescent Marker Behavior Against Autonomous Vehicle Perception Systems" got accepted at USENIX VehicleSec’25.
-- **July 2025:** Our paper "FedVLM: Scalable Personalized Vision-Language Models through Federated Learning" got accepted at ECAI'25 (Acceptance rate 23%).
+- **July 2025:** Our paper "FedVLM: Scalable Personalized Vision-Language Models through Federated Learning" got accepted at ECAI'25 (**Acceptance rate**: 23%).
 - **May 2025:** I returned to the Los Alamos National Lab as an intern with the Materials Science and Technology (MST) Division's MST-8 group.
 - **May 2024:** I started my internship as an Applied Machine Learning Research Fellow at the Los Alamos National Lab.
 - **April 2024:** I was awarded the Kelcy Warren Graduate Fellowship for Engineering at UTA.
