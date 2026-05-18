@@ -12,6 +12,9 @@ I am a Computer Science Ph.D. student at the [University of Texas at Arlington](
 
 Latest News
 =======
+- **April 2026:** Our paper "Revisiting Asymmetries in Black-box Link Stealing against Graph Neural Networks" got accepted at ICML'26.
+- **April 2026:** I received the Outstanding Doctoral Dissertation Award presented at the College of Engineering Academic Excellence Ceremony at UTA.
+- **April 2026:** I received the Graduate School Summer 2026 Dissertation Fellowship at UTA.
 - **November 2025:** Our paper "Unveiling Graph Copycats: Inference Attacks with Student Models" got accepted at PETS'26.
 - **November 2025:** Our paper "Towards Enhanced Sparse-View Tomographic Reconstruction Using 3D Gaussian Splatting" got accepted at 3DV.
 - **August 2025:** Our paper "Beyond Detection: Comparative Explainability Study on Trypanosoma cruzi Using CAMs and DETR Attention" got accepted at IEEE BHI'25.
