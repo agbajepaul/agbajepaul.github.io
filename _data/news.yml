@@ -1,5 +1,11 @@
 # Reverse-chronological list of news items, rendered via _includes/timeline.html
 # Used on both the homepage (compact preview) and /talks/ (full history).
+- date: "July 2026"
+  tag: "Milestone"
+  text: "I successfully defended my dissertation."
+- date: "July 2026"
+  tag: "Recognition"
+  text: "The University of Texas at Arlington featured me in a social media post. [View the post](https://www.linkedin.com/posts/artificialintelligence-cybersecurity-share-7478108511906779137-dA4N/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABsYAr0BzfSNkxBoOP-YC-2T_BtUADW1544)."
 - date: "April 2026"
   tag: "Publication"
   text: "Our paper \"Revisiting Asymmetries in Black-box Link Stealing against Graph Neural Networks\" got accepted at ICML'26."
