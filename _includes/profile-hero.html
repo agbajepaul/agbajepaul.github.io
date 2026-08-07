@@ -3,33 +3,23 @@
 {% assign author = site.author %}
 
 <div class="profile-hero" itemscope itemtype="http://schema.org/Person">
-
-  <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-      <img src="{{ author.avatar }}" alt="{{ author.name }}">
-    {% else %}
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
-    {% endif %}
-  </div>
-
-  <div class="author__content">
-    <h2 class="author__name">{{ author.name }}</h2>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-  </div>
-
-  <div class="author__urls-wrapper">
-    <ul class="author__urls">
-      <li><a href="{{ base_path }}/cv/"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> CV</a></li>
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
-      {% endif %}
-      {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-      {% endif %}
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-      {% endif %}
-    </ul>
-  </div>
-
+<div class="author__avatar">
+{% if author.avatar contains "://" %}
+<img src="{{ author.avatar }}" alt="{{ author.name }}">
+{% else %}
+<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+{% endif %}
+</div>
+<div class="author__content">
+<h2 class="author__name">{{ author.name }}</h2>
+{% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+</div>
+<div class="author__urls-wrapper">
+<ul class="author__urls">
+<li><a href="{{ base_path }}/cv/"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> CV</a></li>
+{% if author.googlescholar %}<li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>{% endif %}
+{% if author.linkedin %}<li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>{% endif %}
+{% if author.github %}<li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>{% endif %}
+</ul>
+</div>
 </div>

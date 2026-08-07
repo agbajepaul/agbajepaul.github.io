@@ -1,15 +1,14 @@
 {% assign timeline_items = site.data.news %}
 {% assign timeline_limit = include.limit | default: timeline_items.size %}
-
 <div class="timeline">
-  {% for item in timeline_items limit: timeline_limit %}
-    <div class="timeline__item">
-      <span class="timeline__marker" data-tag="{{ item.tag | downcase }}"></span>
-      <div class="timeline__content">
-        <span class="timeline__date">{{ item.date }}</span>
-        {% if item.tag %}<span class="timeline__tag">{{ item.tag }}</span>{% endif %}
-        <p class="timeline__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      </div>
-    </div>
-  {% endfor %}
+{% for item in timeline_items limit: timeline_limit %}
+<div class="timeline__item">
+<span class="timeline__marker" data-tag="{{ item.tag | downcase }}"></span>
+<div class="timeline__content">
+<span class="timeline__date">{{ item.date }}</span>
+{% if item.tag %}<span class="timeline__tag">{{ item.tag }}</span>{% endif %}
+<p class="timeline__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+</div>
+</div>
+{% endfor %}
 </div>
