@@ -1,6 +1,9 @@
 # Compiled from Google Scholar (scholar.google.com/citations?user=4klUa8YAAAAJ).
 # paperurl is left blank where no verified link was found — no guessed/fabricated links.
 # Excludes the PhD dissertation entry (not a journal/conference paper).
+# Within each year, entries are ordered newest-first by acceptance/publication month
+# (cross-referenced against _data/news.yml where known); entries with no known month
+# are kept after the dated ones in their original relative order.
 
 # ---- Journal articles ----
 
@@ -10,6 +13,13 @@
   venue: "Proceedings on Privacy Enhancing Technologies (PoPETs)"
   year: 2026
   paperurl: "https://petsymposium.org/popets/2026/popets-2026-0050.php"
+
+- type: journal
+  title: "Towards named data networking technology: Emerging applications, use cases, and challenges for secure data communication"
+  authors: ["Afia Anjum", "Paul Agbaje", "Arkajyoti Mitra", "Emmamuel Oseghale", "Ebelechukwu Nwafor", "Habeeb Olufowobi"]
+  venue: "Future Generation Computer Systems"
+  year: 2024
+  paperurl: ""
 
 - type: journal
   title: "From Weeping to Wailing: A transitive stealthy bus-off attack"
@@ -26,13 +36,6 @@
   paperurl: ""
 
 - type: journal
-  title: "Towards named data networking technology: Emerging applications, use cases, and challenges for secure data communication"
-  authors: ["Afia Anjum", "Paul Agbaje", "Arkajyoti Mitra", "Emmamuel Oseghale", "Ebelechukwu Nwafor", "Habeeb Olufowobi"]
-  venue: "Future Generation Computer Systems"
-  year: 2024
-  paperurl: ""
-
-- type: journal
   title: "Survey of interoperability challenges in the internet of vehicles"
   authors: ["Paul Agbaje", "Afia Anjum", "Arkajyoti Mitra", "Emmamuel Oseghale", "Gedare Bloom", "Habeeb Olufowobi"]
   venue: "IEEE Transactions on Intelligent Transportation Systems"
@@ -40,6 +43,13 @@
   paperurl: "https://ieeexplore.ieee.org/abstract/document/9852810/"
 
 # ---- Conference & workshop proceedings ----
+
+- type: conference
+  title: "Revisiting Asymmetries in Black-box Link Stealing against Graph Neural Networks"
+  authors: ["Paul Agbaje", "Habeeb Olufowobi"]
+  venue: "International Conference on Machine Learning (ICML)"
+  year: 2026
+  paperurl: ""
 
 - type: conference
   title: "A Collaborative Distillation Framework for Graph Neural Networks"
@@ -56,10 +66,17 @@
   paperurl: "https://ieeexplore.ieee.org/abstract/document/11533207/"
 
 - type: conference
-  title: "Revisiting Asymmetries in Black-box Link Stealing against Graph Neural Networks"
-  authors: ["Paul Agbaje", "Habeeb Olufowobi"]
-  venue: "International Conference on Machine Learning (ICML)"
-  year: 2026
+  title: "Beyond Detection: Comparative Explainability Study on Trypanosoma cruzi Using CAMs and DETR Attention"
+  authors: ["A Yousaf", "Paul Agbaje", "M Coffee", "Habeeb Olufowobi"]
+  venue: "IEEE International Conference on Biomedical and Health Informatics (BHI)"
+  year: 2025
+  paperurl: ""
+
+- type: conference
+  title: "Beyond the Glow: Understanding Luminescent Marker Behavior Against Autonomous Vehicle Perception Systems"
+  authors: ["Arkajyoti Mitra", "P MohajerAnsari", "Afia Anjum", "Paul Agbaje", "MD Pesé", "Habeeb Olufowobi"]
+  venue: "USENIX Symposium on Vehicle Security and Privacy (VehicleSec)"
+  year: 2025
   paperurl: ""
 
 - type: conference
@@ -77,13 +94,6 @@
   paperurl: ""
 
 - type: conference
-  title: "Beyond Detection: Comparative Explainability Study on Trypanosoma cruzi Using CAMs and DETR Attention"
-  authors: ["A Yousaf", "Paul Agbaje", "M Coffee", "Habeeb Olufowobi"]
-  venue: "IEEE International Conference on Biomedical and Health Informatics (BHI)"
-  year: 2025
-  paperurl: ""
-
-- type: conference
   title: "DAPS-AGF: Depth-Aware Perceptual Similarity with Adaptive Gradient Filtering for Enhanced Outdoor Scene Reconstruction"
   authors: ["A Yousaf", "Arkajyoti Mitra", "Paul Agbaje", "Afia Anjum", "Habeeb Olufowobi"]
   venue: "IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)"
@@ -91,23 +101,16 @@
   paperurl: ""
 
 - type: conference
-  title: "Beyond the Glow: Understanding Luminescent Marker Behavior Against Autonomous Vehicle Perception Systems"
-  authors: ["Arkajyoti Mitra", "P MohajerAnsari", "Afia Anjum", "Paul Agbaje", "MD Pesé", "Habeeb Olufowobi"]
-  venue: "USENIX Symposium on Vehicle Security and Privacy (VehicleSec)"
-  year: 2025
+  title: "AutoWatch: Learning Driver Behavior with Graphs for Auto Theft Detection and Situational Awareness"
+  authors: ["Paul Agbaje", "A Mookhoek", "Afia Anjum", "Arkajyoti Mitra", "MD Pesé", "Habeeb Olufowobi"]
+  venue: "Symposium on Vehicles Security and Privacy (VehicleSec)"
+  year: 2024
   paperurl: ""
 
 - type: conference
   title: "Deadline-based class assignment for time-sensitive network frame preemption"
   authors: ["O Ikumapayi", "Paul Agbaje", "Y Zhuang", "Habeeb Olufowobi", "Gedare Bloom"]
   venue: "IEEE International Conference on Industrial Technology (ICIT)"
-  year: 2024
-  paperurl: ""
-
-- type: conference
-  title: "AutoWatch: Learning Driver Behavior with Graphs for Auto Theft Detection and Situational Awareness"
-  authors: ["Paul Agbaje", "A Mookhoek", "Afia Anjum", "Arkajyoti Mitra", "MD Pesé", "Habeeb Olufowobi"]
-  venue: "Symposium on Vehicles Security and Privacy (VehicleSec)"
   year: 2024
   paperurl: ""
 
