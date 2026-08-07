@@ -7,11 +7,15 @@ redirect_to:
   - https://scholar.google.com/citations?user=4klUa8YAAAAJ&hl=en&oi=ao
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 {% include base_path %}
+
+{% if site.author.googlescholar %}
+<div class="notice--primary" markdown="1">
+#### Full publication list
+
+My publications are kept up to date on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+</div>
+{% endif %}
 
 <!-- 5. [**FedCime: An Efficient Federated Learning Approach For Clients in Mobile Edge Computing**](https://ieeexplore.ieee.org/abstract/document/10234316), <font size="2">IEEE EDGE'23</font> -->
 <!-- [pdf](https://example.com/paper2) -->

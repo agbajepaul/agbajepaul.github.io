@@ -1,0 +1,70 @@
+/* ==========================================================================
+   TIMELINE
+   ========================================================================== */
+
+.timeline {
+  position: relative;
+  padding-left: 32px;
+  margin: 1.5em 0;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 15px;
+  width: 2px;
+  background: $border-color;
+}
+
+.timeline__item {
+  position: relative;
+  padding-bottom: 1.75em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.timeline__marker {
+  position: absolute;
+  top: 4px;
+  left: -22px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: $primary-color;
+  box-shadow: 0 0 0 3px $background-color;
+}
+
+.timeline__date {
+  display: inline-block;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  font-weight: 700;
+  color: $primary-color;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.timeline__tag {
+  display: inline-block;
+  margin-left: 0.6em;
+  padding: 0.1em 0.65em;
+  font-family: $sans-serif;
+  font-size: $type-size-8;
+  font-weight: 600;
+  color: $gray;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+}
+
+.timeline__text {
+  margin: 0.3em 0 0;
+  font-size: $type-size-5;
+  line-height: 1.6;
+  color: $text-color;
+}
