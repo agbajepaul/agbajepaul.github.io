@@ -226,6 +226,7 @@
 }
 
 .course-list__code {
+  font-size: $type-size-6;
   font-weight: 600;
   color: $text-color;
 }
@@ -233,7 +234,7 @@
 .course-list__term {
   flex: 0 0 auto;
   color: $gray;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
   white-space: nowrap;
 }
 
