@@ -37,6 +37,10 @@
 
 .author__avatar {
   flex: 0 0 auto;
+  /* optical nudge: a circular avatar has no internal whitespace like text
+     glyphs do, so at the same box position it reads as further left than
+     the masthead brand text above it */
+  margin-left: 3px;
 
   img {
     display: block;
