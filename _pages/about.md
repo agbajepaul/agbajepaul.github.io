@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Paul"
+title: "Paul Agbaje"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
