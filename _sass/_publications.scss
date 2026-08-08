@@ -9,7 +9,7 @@
   font-size: $type-size-3;
   font-weight: 700;
   color: $text-color;
-  border-bottom: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color-muted;
 
   &:first-of-type {
     margin-top: 0;
@@ -21,7 +21,7 @@
   font-family: $sans-serif;
   font-size: $type-size-4;
   font-weight: 700;
-  color: $primary-color;
+  color: $primary-color-muted;
 }
 
 .pub-list {
@@ -71,7 +71,7 @@
 }
 
 .pub-item__self {
-  color: $primary-color;
+  color: $primary-color-muted;
   font-weight: 700;
 }
 
@@ -104,12 +104,12 @@
   gap: 0.45em;
   margin-top: 0.6em;
   padding: 0.4em 1em;
-  color: $primary-color;
+  color: $primary-color-muted;
   font-family: $sans-serif;
   font-size: $type-size-7;
   font-weight: 700;
   text-decoration: none;
-  border: 1px solid $primary-color;
+  border: 1px solid $primary-color-muted;
   border-radius: 999px;
   transition: $global-transition;
 

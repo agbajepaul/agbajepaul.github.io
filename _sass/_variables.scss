@@ -62,6 +62,9 @@ $border-color               : #e4e4e7;
 
 /* accent */
 $primary-color              : #3452e1;
+/* muted variant for always-on/decorative accent use (headings, badges, resting
+   links) — reserve the full-bright $primary-color for hover/active/button states */
+$primary-color-muted        : mix(#000, $primary-color, 35%);
 $success-color               : #16a34a;
 $warning-color               : #d97706;
 $danger-color                : #dc2626;
@@ -91,9 +94,9 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $primary-color;
-$link-color-hover           : mix(#000, $link-color, 20%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color                 : $primary-color-muted;
+$link-color-hover           : $primary-color;
+$link-color-visited         : mix(#fff, $primary-color-muted, 25%);
 $masthead-link-color        : $text-color;
 $masthead-link-color-hover  : $primary-color;
 
