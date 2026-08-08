@@ -60,15 +60,16 @@ $code-background-color-dark : $light-gray;
 $text-color                 : #18181b;
 $border-color               : #e4e4e7;
 
-/* accent */
-$primary-color              : #3452e1;
+/* accent — deep, muted green, a more "terminal/security" coded hue than the
+   original bright indigo */
+$primary-color              : #15803d;
 /* muted variant for always-on/decorative accent use (headings, badges, resting
    links) — reserve the full-bright $primary-color for hover/active/button states */
 $primary-color-muted        : mix(#000, $primary-color, 35%);
 $success-color               : #16a34a;
 $warning-color               : #d97706;
 $danger-color                : #dc2626;
-$info-color                  : #3452e1;
+$info-color                  : #15803d;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -150,7 +151,7 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 10px;
+$border-radius              : 3px;
 $box-shadow                 : 0 1px 2px rgba(0, 0, 0, 0.04);
 $card-shadow                : 0 1px 3px rgba(0, 0, 0, 0.06);
 $card-shadow-hover          : 0 8px 24px rgba(0, 0, 0, 0.08);

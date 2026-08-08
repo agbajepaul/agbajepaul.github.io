@@ -182,6 +182,7 @@
     margin: 0 1rem;
     padding: 0.5rem 0;
     color: $masthead-link-color;
+    font-family: $monospace;
     font-size: $type-size-6;
     font-weight: 600;
     text-decoration: none;
@@ -189,6 +190,12 @@
     &:hover {
       color: $masthead-link-color-hover;
     }
+  }
+
+  /* site brand link keeps the human sans-serif treatment; only the
+     nav items themselves go monospace */
+  .masthead__menu-item--lg a {
+    font-family: $sans-serif;
   }
 
   button {

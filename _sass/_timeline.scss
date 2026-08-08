@@ -40,7 +40,7 @@
 
 .timeline__date {
   display: inline-block;
-  font-family: $sans-serif;
+  font-family: $monospace;
   font-size: $type-size-6;
   font-weight: 700;
   color: $primary-color-muted;
@@ -52,14 +52,14 @@
   display: inline-block;
   margin-left: 0.6em;
   padding: 0.1em 0.65em;
-  font-family: $sans-serif;
+  font-family: $monospace;
   font-size: $type-size-8;
   font-weight: 600;
   color: $gray;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   border: 1px solid $border-color;
-  border-radius: 999px;
+  border-radius: $border-radius;
 }
 
 .timeline__text {

@@ -5,7 +5,7 @@
 .pub-year {
   margin: 2em 0 0.5em;
   padding-bottom: 0.35em;
-  font-family: $sans-serif;
+  font-family: $monospace;
   font-size: $type-size-3;
   font-weight: 700;
   color: $text-color;
@@ -90,12 +90,13 @@
   margin-left: 0.75em;
   padding: 0.1em 0.65em;
   color: $warning-color;
+  font-family: $monospace;
   font-size: $type-size-8;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   border: 1px solid $warning-color;
-  border-radius: 999px;
+  border-radius: $border-radius;
 }
 
 .pub-item__link {
@@ -105,12 +106,12 @@
   margin-top: 0.6em;
   padding: 0.4em 1em;
   color: $primary-color-muted;
-  font-family: $sans-serif;
+  font-family: $monospace;
   font-size: $type-size-7;
   font-weight: 700;
   text-decoration: none;
   border: 1px solid $primary-color-muted;
-  border-radius: 999px;
+  border-radius: $border-radius;
   transition: $global-transition;
 
   &:hover {
