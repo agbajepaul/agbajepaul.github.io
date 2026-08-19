@@ -1,5 +1,8 @@
 # Reverse-chronological list of news items, rendered via _includes/timeline.html
 # Used on both the homepage (compact preview) and /talks/ (full history).
+- date: "August 2026"
+  tag: "Publication"
+  text: "Our abstract \"Data-driven inference of twin network dynamics: nucleation, co-nucleation, transmission, and incidental contacts\" got accepted for presentation at the AI/ML/Data Informatics for Materials Discovery symposium."
 - date: "July 2026"
   tag: "Milestone"
   text: "I successfully defended my dissertation."
