@@ -1,5 +1,11 @@
 # Reverse-chronological list of news items, rendered via _includes/timeline.html
 # Used on both the homepage (compact preview) and /talks/ (full history).
+- date: "September 2026"
+  tag: "Publication"
+  text: "Our paper \"Data-driven inference of twin network dynamics: nucleation, co-nucleation, transmission, and incidental contacts\" got accepted at npj Computational Materials."
+- date: "September 2026"
+  tag: "Career"
+  text: "I joined [Montclair State University](https://www.montclair.edu/){:target='_blank' rel='noopener'} as an Assistant Professor in the [School of Computing](https://www.montclair.edu/school-of-computing/){:target='_blank' rel='noopener'}."
 - date: "August 2026"
   tag: "Publication"
   text: "Our abstract \"Data-driven inference of twin network dynamics: nucleation, co-nucleation, transmission, and incidental contacts\" got accepted for presentation at the AI/ML/Data Informatics for Materials Discovery symposium. [View abstract scope](https://www.programmaster.org/PM/PM.nsf/ApprovedAbstracts/567BD8E4FB17894085258E26006A46F9?OpenDocument){:target='_blank' rel='noopener'}."
