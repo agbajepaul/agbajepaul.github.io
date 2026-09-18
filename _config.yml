@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Paul"
+  name             : "Paul Agbaje"
   avatar           : "profile.png"
-  bio              : "Assistant Professor,<br><a href=\"https://www.montclair.edu/school-of-computing/\" target=\"_blank\" rel=\"noopener\">School of Computing</a><br><a href=\"https://www.montclair.edu\" target=\"_blank\" rel=\"noopener\">Montclair State University</a><br>Montclair, New Jersey, USA<br><br><small>Contact: agbajep [at] montclair.edu</small>"
+  bio              : "Assistant Professor,<br><a href=\"https://www.montclair.edu/school-of-computing/\" target=\"_blank\" rel=\"noopener\">School of Computing</a><br><a href=\"https://www.montclair.edu\" target=\"_blank\" rel=\"noopener\">Montclair State University</a><br>Montclair, New Jersey, USA<br><br><span class=\"author__contact\">Contact: agbajep [at] montclair.edu</span>"
   #location         : "Location"
   #employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

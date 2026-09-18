@@ -37,6 +37,7 @@
 
 .author__avatar {
   flex: 0 0 auto;
+  align-self: center;
   /* optical nudge: a circular avatar has no internal whitespace like text
      glyphs do, so at the same box position it reads as further left than
      the masthead brand text above it */
@@ -44,8 +45,8 @@
 
   img {
     display: block;
-    width: 104px;
-    height: 104px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
     border: 1px solid $border-color;
@@ -55,6 +56,7 @@
 .author__content {
   flex: 1 1 320px;
   min-width: 0;
+  align-self: center;
 }
 
 .author__name {
@@ -69,6 +71,12 @@
   color: $dark-gray;
   font-size: $type-size-5;
   line-height: 1.6;
+}
+
+.author__contact {
+  display: inline-block;
+  margin-top: 0.25em;
+  font-size: $type-size-5;
 }
 
 .author__urls-wrapper {
