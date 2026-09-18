@@ -32,6 +32,10 @@ $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
+/* display serif used for the profile-hero name — a deliberate contrast
+   against the Inter body copy, not the site's general heading font */
+$name-font-family           : "Playfair Display", Georgia, "Times New Roman", serif;
+
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
 $type-size-2                : 1.953em;  // ~31.248px

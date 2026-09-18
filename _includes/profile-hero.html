@@ -11,6 +11,7 @@
 {% endif %}
 </div>
 <div class="author__content">
+{% if author.name %}<h1 class="author__name">{{ author.name }}</h1>{% endif %}
 {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
 </div>
 <div class="author__urls-wrapper">
