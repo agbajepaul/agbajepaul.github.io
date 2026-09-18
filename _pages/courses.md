@@ -7,6 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
+<h2 class="archive__subtitle">Montclair State University</h2>
+<h3 class="pub-subheading">Assistant Professor</h3>
+
+<ul class="course-list">
+  <li><span class="course-list__code">CSIT 561: Computer Security</span><span class="course-list__term">Fall '26</span></li>
+  <li><span class="course-list__code">CSIT 104: Python Programming I</span><span class="course-list__term">Fall '26</span></li>
+</ul>
+
 <h2 class="archive__subtitle">University of Texas at Arlington</h2>
 <h3 class="pub-subheading">Graduate Teaching Assistantship</h3>
 
