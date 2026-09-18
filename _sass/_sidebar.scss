@@ -66,6 +66,13 @@
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.01em;
+
+  /* the size that reads right on a narrow phone screen is oversized once
+     there's a full laptop-width column to sit in, so dial it back at
+     tablet/laptop widths and up */
+  @include breakpoint($medium) {
+    font-size: 1.75em;
+  }
 }
 
 .author__bio {
