@@ -52,5 +52,17 @@
     font-weight: 700;
     font-size: $type-size-4;
     letter-spacing: -0.01em;
+
+    /* on the homepage the hero card below already introduces the name in
+       full, so the masthead brand only needs to read as a home link, not
+       compete with it as a second heading */
+    .masthead--home & {
+      font-weight: 400;
+      font-size: $type-size-5;
+
+      a {
+        color: $dark-gray;
+      }
+    }
   }
 }
